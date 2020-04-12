@@ -28,6 +28,14 @@ body, form {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+form {
+		margin-left: 27%;
+}
+
+.lead {
+	text-align: center;
+}
+
 /* Float four columns side by side */
 .column {
   float: left;
@@ -80,6 +88,11 @@ body, form {
   display: table;
 }
 
+.rown {
+	margin-left: 13%;
+	margin-top: 10%;
+}
+
 #bigred {
   margin-top: 4%;
 	
@@ -89,7 +102,7 @@ body, form {
   background-color: white;
   color: black;
   border: 2px solid #555555;
-  margin-left: 45%;
+  margin-left: 26%;
 }
 
 .button:hover {
