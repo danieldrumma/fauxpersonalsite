@@ -1,0 +1,98 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+header {
+  padding: 156px 0 100px;
+}
+
+section {
+  padding: 150px 0;
+}
+#avatar {
+  border-radius: 50%;
+  height: 126px;
+  width: 135px;
+}
+h2 {
+	text-align: center;
+	margin-bottom: 7%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body, form {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 13px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.worktext {
+	font-size: 75%;
+	text-align: left;
+}
+
+.imgside {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.rown::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#bigred {
+  margin-top: 4%;
+	
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  margin-left: 45%;
+}
+
+.button:hover {
+  background-color: #555555;
+  color: white;
+}

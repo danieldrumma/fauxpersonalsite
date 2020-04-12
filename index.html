@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Daniel Boaitey</title>
+      <!-- Bootstrap core CSS -->
+      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Custom styles for this template -->
+      <link href="css/scrolling-nav.css" rel="stylesheet">
+   </head>
+   <body id="page-top">
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+         <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Daniel Boaitey</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                     <a class="nav-link js-scroll-trigger" href="#where">Work History</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link js-scroll-trigger" href="#services">Extracurriculars</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <header class="bg-primary text-white">
+         <div class="container text-center">
+            <!--<img src="assets/profile2.png" alt="Avatar" id="avatar">-->
+            <h1>Daniel Boaitey</h1>
+            <p class="lead">I am a fourth year computer science student graduating in December 2020, searching for full time full stack software engineering opportunities starting in Spring 2021. I'm especially interested
+			in opportunities at SaaS companies with a consumer focus where I'll be able to build products that create impact on a large scale. My interests include web development & data science.</p>
+         </div>
+      </header>
+      <section id="where">
+         <div class="container">
+            <div class="row">
+              <!--  Navigation old -->
+               <div class="col-lg-8 mx-auto">
+                  <h2>Where have I worked?</h2>
+                  <div class="column">
+                     <div class="card">
+                        <h3>GE Aviation - Cincinnati, OH</h3>
+						<img class="card-img-top" src="assets/gelogo.svg" alt="Card image cap">
+                        <ul>
+							<li class="worktext">Built live dashboard with real time data streaming for supervisor users within call center application, implemented full stack solution</li>
+							<li class="worktext">Analyzed chatbot data to increase response and intent accuracy, achieved with use of various topic classification and clustering algorithms </li>
+							<li class="worktext">Collaborated with an international team, a product designer, and a product manager</li>
+						</ul>  
+
+                     </div>
+                  </div>
+                  <div class="column">
+                     <div class="card">
+                        <h3>Vee24 - Boston, MA</h3>
+						<img class="card-img-top" src="assets/vee24_logo.png" alt="Card image cap">
+                         <ul>
+							<li class="worktext">Developed optical character recognition post-processing tool for pricing document with intuitive web frontend for internal GE90/GE9X engine business development team, reduced friction in entering new data and analyzing engine pricing data</li>
+							<li class="worktext">Extracted data and created analytics dashboard for insight regarding GE90 and GE9X engine sales and transitions between owners </li>
+							<li class="worktext">Handled product design and interfaced directly with customer on both projects</li>
+						</ul>  
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="services" class="bg-light">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-8 mx-auto">
+                  <h2>What else have I done?</h2>
+                  <p class="lead">
+                  </p>
+                  <ul>
+                     <li>Hackathons: RIT's BrickHack 2016, Binghamton University's HackBU 2018, Cornell University's Big Red Hack's 2018 </li>
+                     <li>Eight Beat Measure: I love to sing! I've been part of an all male-presenting a cappella group since my first semester at RIT in Fall 2016. We've competed, traveled, recorded and won numerous awards for our performances and albums.</li>
+                     <li>National Society of Black Engineers: NSBE has been a great community for me through my time at RIT. It has provided excellent professional development and access to conversations that allow me to navigate the nuances of being a minority within a STEM field.</li>
+
+                  </ul>
+               </div>
+            </div>
+			<div class="rown">
+			  <div class="imgside">
+				<img src="assets/brickhack.png" alt="Snow" style="width:40%">
+			  </div>
+			  <div class="imgside">
+				<img src="assets/hackbu.png" alt="Forest" style="width:40%">
+			  </div>
+			  <div class="imgside">
+				<img src="assets/nsbe.png" alt="Mountains" style="width:40%">
+			  </div>
+			  <div class="imgside" id="bigred">
+				<img src="assets/big-red-hacks-ny-2016.png" alt="Mountains" style="width:80%">
+			  </div>
+			  <div class="imgside">
+				<img src="assets/8beat.jpg" alt="Mountains" style="width:40%">
+			  </div>
+			</div>
+         </div>
+      </section>
+      <section id="contact">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-8 mx-auto">
+                  <h2>Contact me!</h2>
+                  <p class="lead">Fill out the form below to contact me regarding any potential employmentopportunities or collaborations.</p>
+                  
+				  <form name="contact" method="POST" data-netlify="true">
+						  <p>
+							<label>Your Name: <input type="text" name="name" /></label>   
+						  </p>
+						  <p>
+							<label>Your Email: <input type="email" name="email" /></label>
+						  </p>
+						  <p>
+							<label>Your Role: <select name="role[]" multiple>
+							  <option value="leader">Recruiter</option>
+							  <option value="follower">Director of Engineering</option>
+							  <option value="follower">Other</option>
+							</select></label>
+						  </p>
+						  <p>
+							<label>A message: <textarea name="message"></textarea></label>
+						  </p>
+						  <p>
+							<button class="button" type="submit">Send</button>
+						  </p>
+					</form>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Footer -->
+      <footer class="py-5 bg-dark">
+         <div class="container">
+		 <p class="m-0 text-center text-white">Find me on Github, Twitter, Instagram and the rest of the internet @danieldrumma</p>
+         </div>
+         <!-- /.container -->
+      </footer>
+      <!-- Bootstrap core JavaScript -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <!-- Plugin JavaScript -->
+      <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+      <!-- Custom JavaScript for this theme -->
+      <script src="js/scrolling-nav.js"></script>
+   </body>
+</html>
